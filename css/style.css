@@ -10,3 +10,11 @@ img {
 }
 
 footer { text-align: center; }
+
+a:hover
+{
+background-color: black;
+color: white;
+transition: all 1.5s;
+padding: 15px;
+}
