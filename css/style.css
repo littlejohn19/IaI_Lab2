@@ -18,3 +18,7 @@ color: white;
 transition: all 1.5s;
 padding: 15px;
 }
+#Dane{ background-color: cyan;
+padding: 22px;
+}
+iframe { width: 100%; }
