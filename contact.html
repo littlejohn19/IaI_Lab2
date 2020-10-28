@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css"   >
+
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Quiz</a></li>
+        <li><a href="contact.html">Kontakt</a></li>
+        <li><a href="map.html">Mapa</a></li>
+    </ul>
+</nav>
+
+<ul>
+    <li>  <label for="Imię">Imię</label></li>
+    <li> <input type="text" id="Imię" name="nazwa" placeholder="Wprowadź imię" ></li>
+    <li>  <label for="nazwisko">Nazwisko</label></li>
+    <li> <input type="text" id="nazwisko" name="nazwa" placeholder="Wprowadź nazwisko" ></li>
+
+    <li>  <label for="mail">E-mail</label></li>
+    <li> <input type="email" id="mail" value="@gmail.com"></li>
+    <li> <label for="płeć">Płeć</label></li>
+    <li> <input type="radio" id="płeć" name="nazwa" value="wartość" > Mężczyzna
+        <input type="radio"  name="nazwa" value="wartość" checked> Kobieta
+    </li>
+    <textarea rows="4" cols="30" >miejsce na opis </textarea>
+    <li>  <label for="wiek">Wiek</label></li>
+    <li> <input type="number" id="wiek" name="nazwa" value="20" > </li>
+    <li> <label for="stan">Stan cywilny</label></li>
+    <li>
+        <select type="text" id="stan" name="nazwa" required>
+        <option >Panna/Kawaler</option>disabled
+        <option >Wdowa</option>
+        <option >Inne</option>
+        </select>
+    </li>
+    <li>
+        <input type="button" value="Wyczyść" >
+        <button type="submit" class="btn btn-primary">Zatwierdź</button>
+    </li>
+
+</ul>
+
+<input type="checkbox" name="nazwa" value="wartość" id="kontrolka" checked>
+<label for="kontrolka">Zapoznałem się z polityką prywatnośći</label>
+<footer>
+    <p>Copyrights © Jarosław Zieliński | 2020</p>
+</footer>
+</body>
+</html>
